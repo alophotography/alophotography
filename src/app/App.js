@@ -1,11 +1,17 @@
 import React, { Component } from 'react';
-import NavigationBar from './NavigationBar.js';
+import Header from './common/Header.js';
+import NavigationBar from './common/NavigationBar.js';
+import Collections from './collections/Collections.js'
 import './App.css';
 
 class App extends Component {
   render() {
     return (
-      <NavigationBar />
+      <div>
+        <Header />
+        <NavigationBar />
+        <Collections />
+      </div>
     );
   }
 }
