@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import Header from './common/Header.js';
-import NavigationBar from './common/NavigationBar.js';
-import Collections from './collections/Collections.js'
+import Header from './components/common/Header.js';
+import NavigationBar from './components/common/NavigationBar.js';
+import Collections from './components/collections/Collections.js'
 import './App.css';
 
 class App extends Component {

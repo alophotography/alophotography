@@ -1,0 +1,14 @@
+.grid-row {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.img-title {
+  padding-top: 10px;
+  font-size: 10pt;
+  color: #6e6e6e;
+}
+
+a:hover {
+  text-decoration: none;
+}

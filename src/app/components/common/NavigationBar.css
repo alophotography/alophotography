@@ -17,12 +17,11 @@
 
 .navbar {
   background-color: #fdfdfd;
-  border-bottom-width: thin;
-  border-bottom-color: #4e5053;
+  border-bottom: 0.5pt solid #e4e4e4;
 }
 
 .navbar-nav a {
-  color: #4e5053;
+  color: #939393;
   font-size: 10pt;
 }
 

@@ -22,7 +22,7 @@ class NavigationBar extends Component {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav navbar-list">
             {
-              this.navBarOptions.map(function(option) {
+              this.navBarOptions.map((option) => {
                 return (
                   <li className="nav-item" key={option.title}>
                     <a className="nav-link" href={option.link}>{option.title}</a>
