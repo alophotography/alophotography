@@ -7,7 +7,7 @@ import collec2ph3 from '../assets/photos/mamiyac330s-2berk/2berk-3.jpg';
 export const CollectionsData = [
   {
     id: 'collection-1',
-    title: 'Shanghai Home',
+    title: '回忆中的上海',
     date: '',
     link: '',
     photos: [
