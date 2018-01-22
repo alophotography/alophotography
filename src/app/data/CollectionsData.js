@@ -1,18 +1,3 @@
-import collec1ph1 from '../assets/photos/mamiyac330s-1sh/1sh-1.jpg';
-import collec1ph2 from '../assets/photos/mamiyac330s-1sh/1sh-2.jpg';
-import collec2ph1 from '../assets/photos/mamiyac330s-2berk/2berk-1.jpg';
-import collec2ph2 from '../assets/photos/mamiyac330s-2berk/2berk-2.jpg';
-import collec2ph3 from '../assets/photos/mamiyac330s-2berk/2berk-3.jpg';
-import collec2ph4 from '../assets/photos/mamiyac330s-2berk/2berk-4.jpg';
-import collec2ph5 from '../assets/photos/mamiyac330s-2berk/2berk-5.jpg';
-import collec2ph6 from '../assets/photos/mamiyac330s-2berk/2berk-6.jpg';
-import collec2ph7 from '../assets/photos/mamiyac330s-2berk/2berk-7.jpg';
-import collec2ph8 from '../assets/photos/mamiyac330s-2berk/2berk-8.jpg';
-import collec2ph9 from '../assets/photos/mamiyac330s-2berk/2berk-9.jpg';
-import collec2ph10 from '../assets/photos/mamiyac330s-2berk/2berk-10.jpg';
-import collec2ph11 from '../assets/photos/mamiyac330s-2berk/2berk-11.jpg';
-import collec2ph12 from '../assets/photos/mamiyac330s-2berk/2berk-12.jpg';
-
 import { CAMERAS } from '../constants/CamerasConstants.js';
 
 export const CollectionsData = [
@@ -23,7 +8,7 @@ export const CollectionsData = [
     photos: [
       {
         id: '1',
-        img: collec1ph1,
+        img: 'https://i.imgur.com/N3X1Ioq.jpg',
         date: '',
         location: 'Shanghai, China',
         collection: 'collection-1',
@@ -33,7 +18,7 @@ export const CollectionsData = [
       },
       {
         id: '2',
-        img: collec1ph2,
+        img: 'https://i.imgur.com/GkSB31T.jpg',
         date: '',
         location: 'Shanghai, China',
         collection: 'collection-1',
@@ -50,7 +35,7 @@ export const CollectionsData = [
     photos: [
       {
         id: '1',
-        img: collec2ph1,
+        img: 'https://i.imgur.com/mAQidIn.jpg',
         date: '',
         location: 'Berkeley, CA',
         collection: 'collection-2',
@@ -60,7 +45,7 @@ export const CollectionsData = [
       },
       {
         id: '2',
-        img: collec2ph2,
+        img: 'https://i.imgur.com/kxf8K8H.jpg',
         date: '',
         location: 'Berkeley, CA',
         collection: 'collection-2',
@@ -70,7 +55,7 @@ export const CollectionsData = [
       },
       {
         id: '3',
-        img: collec2ph3,
+        img: 'https://i.imgur.com/2rYzEAB.jpg',
         date: '',
         location: 'Berkeley, CA',
         collection: 'collection-2',
@@ -80,7 +65,7 @@ export const CollectionsData = [
       },
       {
         id: '4',
-        img: collec2ph4,
+        img: 'https://i.imgur.com/qezZHIo.jpg',
         date: '',
         location: 'Berkeley, CA',
         collection: 'collection-2',
@@ -90,7 +75,7 @@ export const CollectionsData = [
       },
       {
         id: '5',
-        img: collec2ph5,
+        img: 'https://i.imgur.com/Fwt7AvO.jpg',
         date: '',
         location: 'Berkeley, CA',
         collection: 'collection-2',
@@ -100,7 +85,7 @@ export const CollectionsData = [
       },
       {
         id: '6',
-        img: collec2ph6,
+        img: 'https://i.imgur.com/LVoUaPd.jpg',
         date: '',
         location: 'Berkeley, CA',
         collection: 'collection-2',
@@ -110,7 +95,7 @@ export const CollectionsData = [
       },
       {
         id: '7',
-        img: collec2ph7,
+        img: 'https://i.imgur.com/IE2erhA.jpg',
         date: '',
         location: 'Berkeley, CA',
         collection: 'collection-2',
@@ -120,7 +105,7 @@ export const CollectionsData = [
       },
       {
         id: '8',
-        img: collec2ph8,
+        img: 'https://i.imgur.com/j1g5dAX.jpg',
         date: '',
         location: 'Berkeley, CA',
         collection: 'collection-2',
@@ -130,7 +115,7 @@ export const CollectionsData = [
       },
       {
         id: '9',
-        img: collec2ph9,
+        img: 'https://i.imgur.com/Tqk7rGQ.jpg',
         date: '',
         location: 'Berkeley, CA',
         collection: 'collection-2',
@@ -140,7 +125,7 @@ export const CollectionsData = [
       },
       {
         id: '10',
-        img: collec2ph10,
+        img: 'https://i.imgur.com/KzFjRam.jpg',
         date: '',
         location: 'Berkeley, CA',
         collection: 'collection-2',
@@ -150,7 +135,7 @@ export const CollectionsData = [
       },
       {
         id: '11',
-        img: collec2ph11,
+        img: 'https://i.imgur.com/cjwrUIj.jpg',
         date: '',
         location: 'Berkeley, CA',
         collection: 'collection-2',
@@ -160,7 +145,7 @@ export const CollectionsData = [
       },
       {
         id: '12',
-        img: collec2ph12,
+        img: 'https://i.imgur.com/pmo560S.jpg',
         date: '',
         location: 'Berkeley, CA',
         collection: 'collection-2',
