@@ -1,3 +1,3 @@
-const CAMERAS = {
-  'mamiyac300s': 'Mamiya C330S'
+export const CAMERAS = {
+  MAMIYA_C330S: 'Mamiya C330S'
 }

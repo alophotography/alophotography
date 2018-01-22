@@ -1,10 +1,12 @@
 import cam1ph1 from '../assets/photos/mamiyac330s-1sh/1sh-1.jpg';
 import cam1ph2 from '../assets/photos/mamiyac330s-1sh/1sh-2.jpg';
 
+import { CAMERAS } from '../constants/CamerasConstants.js';
+
 const CamerasData = {
   1: {
     cameraId: 'mamiyac300s',
-    title: 'Mamiya C330S',
+    title: CAMERAS.MAMIYA_C330S,
     date: '',
     photos: {
       1: {
@@ -13,7 +15,7 @@ const CamerasData = {
         date: '',
         location: 'Shanghai, China',
         collection: 'collection-1',
-        camera: 'Mamiya C330S',
+        camera: CAMERAS.MAMIYA_C330S,
         film: 'Kodak Portra 400',
         format: '120'
       },
@@ -23,7 +25,7 @@ const CamerasData = {
         date: '',
         location: 'Shanghai, China',
         collection: 'collection-1',
-        camera: 'Mamiya C330S',
+        camera: CAMERAS.MAMIYA_C330S,
         film: 'Kodak Portra 400',
         format: '120'
       }

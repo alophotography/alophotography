@@ -1,0 +1,23 @@
+.photo-container {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.photo-description {
+  flex: 1;
+  text-align: left;
+  padding-left: 20px;
+  padding-top: 10px;
+  font-size: 10pt;
+  color: #939393;
+  white-space: pre-line;
+}
+
+.photo {
+  max-height: 80vh;
+  max-width: 50vw;
+  width: auto;
+  height: auto;
+}
