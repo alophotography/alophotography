@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+
 import './NavigationBar.css';
 
 class NavigationBar extends Component {
@@ -6,7 +8,7 @@ class NavigationBar extends Component {
   constructor(props) {
     super(props);
     this.navBarOptions = [
-      {title: 'collections', link: ''}, // expose or look
+      {title: 'collections', link: '/collections'}, // expose or look
       {title: 'cameras', link: ''}, // click
       {title: 'about', link: ''}, // read
       {title: 'contact', link: ''} // contact
@@ -25,7 +27,7 @@ class NavigationBar extends Component {
               this.navBarOptions.map((option) => {
                 return (
                   <li className="nav-item" key={option.title}>
-                    <a className="nav-link" href={option.link}>{option.title}</a>
+                    <Link className="nav-link" to={option.link}>{option.title}</Link>
                   </li>
                 )
               })

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 import GridImage from './GridImage.js';
 import './Grid.css';
@@ -34,13 +35,15 @@ class Grid extends Component {
               <div className="col" key={i}>
                 {(data !== undefined) &&
                   <div>
-                    <a href={data.link}>
+                    <Link to={`/collections/${i}`} className="img-title">
                       <GridImage
                         src={data.photos[0].img}
                         alt={data.title}
                       />
-                    </a>
-                    <a className="img-title" href={data.link}>{data.title}</a>
+                    </Link>
+                    <Link to={`/collections/${i}`} className="img-title">
+                      {data.title}
+                    </Link>
                   </div>
                 }
               </div>

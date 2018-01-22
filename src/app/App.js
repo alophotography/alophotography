@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
+
 import Header from './components/common/Header.js';
-import NavigationBar from './components/common/NavigationBar.js';
-import Collections from './components/collections/Collections.js'
+import Main from './components/common/Main.js';
 import './App.css';
 
 class App extends Component {
@@ -9,8 +9,7 @@ class App extends Component {
     return (
       <div>
         <Header />
-        <NavigationBar />
-        <Collections />
+        <Main />
       </div>
     );
   }
