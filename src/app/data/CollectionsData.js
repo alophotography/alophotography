@@ -55,7 +55,7 @@ export const CollectionsData = [
       },
       {
         id: '3',
-        img: 'https://i.imgur.com/2rYzEAB.jpg',
+        img: 'https://i.imgur.com/LVoUaPd.jpg',
         date: '',
         location: 'Berkeley, CA',
         collection: 'collection-2',
@@ -65,7 +65,7 @@ export const CollectionsData = [
       },
       {
         id: '4',
-        img: 'https://i.imgur.com/qezZHIo.jpg',
+        img: 'https://i.imgur.com/2rYzEAB.jpg',
         date: '',
         location: 'Berkeley, CA',
         collection: 'collection-2',
@@ -75,7 +75,7 @@ export const CollectionsData = [
       },
       {
         id: '5',
-        img: 'https://i.imgur.com/Fwt7AvO.jpg',
+        img: 'https://i.imgur.com/qezZHIo.jpg',
         date: '',
         location: 'Berkeley, CA',
         collection: 'collection-2',
@@ -85,7 +85,7 @@ export const CollectionsData = [
       },
       {
         id: '6',
-        img: 'https://i.imgur.com/LVoUaPd.jpg',
+        img: 'https://i.imgur.com/Fwt7AvO.jpg',
         date: '',
         location: 'Berkeley, CA',
         collection: 'collection-2',
@@ -125,7 +125,7 @@ export const CollectionsData = [
       },
       {
         id: '10',
-        img: 'https://i.imgur.com/KzFjRam.jpg',
+        img: 'https://i.imgur.com/cjwrUIj.jpg',
         date: '',
         location: 'Berkeley, CA',
         collection: 'collection-2',
@@ -135,7 +135,7 @@ export const CollectionsData = [
       },
       {
         id: '11',
-        img: 'https://i.imgur.com/cjwrUIj.jpg',
+        img: 'https://i.imgur.com/KzFjRam.jpg',
         date: '',
         location: 'Berkeley, CA',
         collection: 'collection-2',
@@ -152,6 +152,106 @@ export const CollectionsData = [
         camera: CAMERAS.MAMIYA_C330S,
         film: 'Kodak Portra 400',
         format: '120mm'
+      },
+      {
+        id: '13',
+        img: 'https://i.imgur.com/YLTBZrA.jpg',
+        date: '',
+        location: 'Berkeley, CA',
+        collection: 'collection-2',
+        camera: CAMERAS.MINOLTA_X700,
+        film: 'Kodak Portra 400',
+        format: '35mm'
+      },
+      {
+        id: '14',
+        img: 'https://i.imgur.com/rnnIFJQ.jpg',
+        date: '',
+        location: 'Berkeley, CA',
+        collection: 'collection-2',
+        camera: CAMERAS.MINOLTA_X700,
+        film: 'Kodak Portra 400',
+        format: '35mm'
+      },
+      {
+        id: '15',
+        img: 'https://i.imgur.com/90g12Je.jpg',
+        date: '',
+        location: 'Berkeley, CA',
+        collection: 'collection-2',
+        camera: CAMERAS.MINOLTA_X700,
+        film: 'Kodak Portra 400',
+        format: '35mm'
+      },
+      {
+        id: '16',
+        img: 'https://i.imgur.com/6kyx1Ue.jpg',
+        date: '',
+        location: 'Berkeley, CA',
+        collection: 'collection-2',
+        camera: CAMERAS.MINOLTA_X700,
+        film: 'Kodak Portra 400',
+        format: '35mm'
+      },
+      {
+        id: '17',
+        img: 'https://i.imgur.com/If51JqZ.jpg',
+        date: '',
+        location: 'Berkeley, CA',
+        collection: 'collection-2',
+        camera: CAMERAS.MINOLTA_X700,
+        film: 'Kodak Portra 400',
+        format: '35mm'
+      },
+      {
+        id: '18',
+        img: 'https://i.imgur.com/FwYDvbE.jpg',
+        date: '',
+        location: 'Berkeley, CA',
+        collection: 'collection-2',
+        camera: CAMERAS.MINOLTA_X700,
+        film: 'Kodak Portra 400',
+        format: '35mm'
+      },
+      {
+        id: '19',
+        img: 'https://i.imgur.com/zOEYQfr.jpg',
+        date: '',
+        location: 'Berkeley, CA',
+        collection: 'collection-2',
+        camera: CAMERAS.MINOLTA_X700,
+        film: 'Kodak Portra 400',
+        format: '35mm'
+      },
+      {
+        id: '20',
+        img: 'https://i.imgur.com/gCTdEZs.jpg',
+        date: '',
+        location: 'Berkeley, CA',
+        collection: 'collection-2',
+        camera: CAMERAS.MINOLTA_X700,
+        film: 'Kodak Portra 400',
+        format: '35mm'
+      },
+      {
+        id: '21',
+        img: 'https://i.imgur.com/Ovok6hE.jpg',
+        date: '',
+        location: 'Berkeley, CA',
+        collection: 'collection-2',
+        camera: CAMERAS.MINOLTA_X700,
+        film: 'Kodak Portra 400',
+        format: '35mm'
+      },
+      {
+        id: '22',
+        img: 'https://i.imgur.com/iHW4AgA.jpg',
+        date: '',
+        location: 'Berkeley, CA',
+        collection: 'collection-2',
+        camera: CAMERAS.MINOLTA_X700,
+        film: 'Kodak Portra 400',
+        format: '35mm'
       }
     ]
   }
