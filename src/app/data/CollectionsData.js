@@ -30,7 +30,7 @@ export const CollectionsData = [
   },
   {
     id: 'collection-2',
-    title: 'Berkeley',
+    title: 'First Roll',
     date: '',
     photos: [
       {
