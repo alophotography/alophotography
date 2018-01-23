@@ -35,7 +35,6 @@ class Photo extends Component {
         }
       }
     }
-    console.log(description);
 
     return (
       <div

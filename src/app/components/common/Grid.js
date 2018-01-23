@@ -20,22 +20,22 @@ class Grid extends Component {
       } else {
         row = data.slice(dataIndex, dataIndex + columns);
       }
-      rows.push(this.renderRow(row, i));
+      rows.push(this.renderRow(row, dataIndex));
       dataIndex += columns;
     }
     return rows;
   }
 
-  renderRow = (rowData, i) => {
+  renderRow = (rowData, index) => {
     return (
-      <div className="row align-items-center grid-row" key={i}>
+      <div className="row align-items-center grid-row" key={index}>
         {
           rowData.map((data, i) => {
             return (
-              <div className="col" key={i}>
+              <div className="col" key={i+index}>
                 {(data !== undefined) &&
                   <div>
-                    <Link to={`/collections/${i}`} className="img-title">
+                    <Link to={`/collections/${i+index}`} className="img-title">
                       <GridImage
                         src={data.photos[0].img}
                         alt={data.title}
