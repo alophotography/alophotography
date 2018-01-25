@@ -31,7 +31,7 @@ class Photo extends Component {
       if (info.length !== 0) {
         description += info;
         if (i < descInfo.length - 1) {
-          description += '\n';
+          description += '   //   ';
         }
       }
     }
@@ -40,12 +40,6 @@ class Photo extends Component {
       <div
         className="photo-container"
       >
-        <div
-          className="photo-description"
-          style={{ visibility: 'hidden' }}
-        >
-          {description}
-        </div>
         <img
           className="photo"
           src={img}

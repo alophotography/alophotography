@@ -1,25 +1,23 @@
 .photo-container {
-  display: flex;
-  justify-content: space-between;
   padding-bottom: 20px;
-  position: relative;
+  margin: 0 auto;
 }
 
 .photo-description {
-  flex: 1;
-  text-align: left;
-  padding-left: 20px;
   padding-top: 10px;
+  padding-bottom: 5px;
   font-size: 10pt;
   color: #939393;
   white-space: pre-line;
+  margin: 0 auto;
 }
 
 .photo {
+  margin: 0 auto;
   max-height: 80vh;
-  /* max-width: 60vw; */
-  width: auto;
-  /* height: auto; */
+  max-width: 60vw;
+  /* width: auto; */
+  height: auto;
 }
 
 img {
