@@ -1,20 +1,20 @@
 import React, { Component } from 'react';
 
-import { CollectionsData } from '../../data/CollectionsData.js';
+import { CamerasData } from '../../data/CamerasData.js';
 import Photo from '../common/Photo.js'
-import './Collection.css';
+import './Camera.css';
 
-class Collection extends Component {
+class Camera extends Component {
 
   constructor(props) {
     super(props);
-    this.data = CollectionsData[this.props.match.params.collection];
+    this.data = CamerasData[this.props.match.params.camera];
   }
 
   render() {
     return (
       <div className="container-fluid center-container">
-        <div className="collection-title">{this.data.title}</div>
+        <div className="camera-title">{this.data.title}</div>
         <div className="photos-container">
           {
             this.data.photos.map((photo) => {
@@ -22,7 +22,7 @@ class Collection extends Component {
                 <Photo
                   key={photo.id}
                   data={photo}
-                  view={'collection'}
+                  view={'camera'}
                 />
               )
             })
@@ -33,4 +33,4 @@ class Collection extends Component {
   }
 }
 
-export default Collection;
+export default Camera;

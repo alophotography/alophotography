@@ -4,9 +4,9 @@ import './GridImage.css';
 class GridImage extends Component {
   render() {
     return (
-      <div className="image-container">
+      <div className="square-image-container">
         <img
-          className="image"
+          className="square-image"
           src={this.props.src}
           alt={this.props.alt}
         />

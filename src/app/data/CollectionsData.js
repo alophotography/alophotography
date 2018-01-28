@@ -6,6 +6,7 @@ export const CollectionsData = [
     id: 'collection-7',
     title: COLLECTION_TITLES['collection-7'],
     date: '',
+    cover: 'https://i.imgur.com/399S4Ci.jpg',
     photos: [
       {
         id: '1',
@@ -223,6 +224,7 @@ export const CollectionsData = [
     id: 'collection-6',
     title: COLLECTION_TITLES['collection-6'],
     date: '',
+    cover: 'https://i.imgur.com/t9uLwWr.jpg',
     photos: [
       {
         id: '1',
@@ -320,6 +322,7 @@ export const CollectionsData = [
     id: 'collection-5',
     title: COLLECTION_TITLES['collection-5'],
     date: '',
+    cover: 'https://i.imgur.com/cnAclK7.jpg',
     photos: [
       {
         id: '1',
@@ -347,6 +350,7 @@ export const CollectionsData = [
     id: 'collection-4',
     title: COLLECTION_TITLES['collection-4'],
     date: '',
+    cover: 'https://i.imgur.com/WHIHtMo.jpg',
     photos: [
       {
         id: '1',
@@ -414,6 +418,7 @@ export const CollectionsData = [
     id: 'collection-3',
     title: COLLECTION_TITLES['collection-3'],
     date: '',
+    cover: 'https://i.imgur.com/2EWPG4n.jpg',
     photos: [
       {
         id: '1',
@@ -461,6 +466,7 @@ export const CollectionsData = [
     id: 'collection-2',
     title: COLLECTION_TITLES['collection-2'],
     date: '',
+    cover: 'https://i.imgur.com/mAQidIn.jpg',
     photos: [
       {
         id: '1',
@@ -688,6 +694,7 @@ export const CollectionsData = [
     id: 'collection-1',
     title: COLLECTION_TITLES['collection-1'],
     date: '',
+    cover: 'https://i.imgur.com/N3X1Ioq.jpg',
     photos: [
       {
         id: '1',

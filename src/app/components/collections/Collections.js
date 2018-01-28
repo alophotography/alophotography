@@ -11,6 +11,7 @@ class Collections extends Component {
       <Grid
         data={CollectionsData}
         columns={COLUMNS}
+        view={'collections'}
       />
     );
   }

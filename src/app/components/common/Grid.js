@@ -27,6 +27,7 @@ class Grid extends Component {
   }
 
   renderRow = (rowData, index) => {
+    const view = this.props.view;
     return (
       <div className="row align-items-center grid-row" key={index}>
         {
@@ -35,13 +36,13 @@ class Grid extends Component {
               <div className="col-sm" key={i+index}>
                 {(data !== undefined) &&
                   <div>
-                    <Link to={`/collections/${i+index}`} className="img-title">
+                    <Link to={`/${view}/${i+index}`} className="img-title">
                       <GridImage
-                        src={data.photos[0].img}
+                        src={data.cover}
                         alt={data.title}
                       />
                     </Link>
-                    <Link to={`/collections/${i}`} className="img-title">
+                    <Link to={`/${view}/${i}`} className="img-title">
                       {data.title}
                     </Link>
                   </div>

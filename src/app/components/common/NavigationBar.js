@@ -9,7 +9,7 @@ class NavigationBar extends Component {
     super(props);
     this.navBarOptions = [
       {title: 'collections', link: '/collections'}, // expose or look
-      {title: 'cameras', link: ''}, // click
+      {title: 'cameras', link: '/cameras'}, // click
       {title: 'about', link: ''}, // read
       {title: 'contact', link: ''} // contact
     ];

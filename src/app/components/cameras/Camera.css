@@ -1,0 +1,13 @@
+.center-container {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.photos-container {
+  margin: 0 auto;
+}
+
+.camera-title {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}

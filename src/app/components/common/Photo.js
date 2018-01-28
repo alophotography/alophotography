@@ -20,17 +20,34 @@ class Photo extends Component {
   }
 
   render() {
-    const { id, img, date, location, camera, film, format } = this.props.data;
+    const {
+      id,
+      img,
+      date,
+      location,
+      collection,
+      camera,
+      film,
+      format
+    } = this.props.data;
+
+    console.log(this.props.view);
 
     const filmFormat = film + ' (' + format + ')';
-    const descInfo = [date, location, camera, filmFormat];
+    let descInfo;
+    if (this.props.view === 'collection') {
+      descInfo = [date, location, camera, filmFormat];
+    } else if (this.props.view === 'camera') {
+      descInfo = [film, collection, location, date];
+    }
     let description = '';
 
     for (let i = 0; i < descInfo.length; i++) {
       const info = descInfo[i];
       if (info.length !== 0) {
         description += info;
-        if (i < descInfo.length - 1) {
+        if (i < descInfo.length - 1 &&
+          (i+1 < descInfo.length && descInfo[i+1].length !== 0)) {
           description += '   //   ';
         }
       }
