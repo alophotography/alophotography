@@ -32,7 +32,7 @@ class Grid extends Component {
         {
           rowData.map((data, i) => {
             return (
-              <div className="col" key={i+index}>
+              <div className="col-sm" key={i+index}>
                 {(data !== undefined) &&
                   <div>
                     <Link to={`/collections/${i+index}`} className="img-title">

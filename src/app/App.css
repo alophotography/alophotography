@@ -3,5 +3,7 @@
 }
 
 .app-container {
+  margin: 0 auto;
   margin-bottom: 45px;
+  text-align: center;
 }

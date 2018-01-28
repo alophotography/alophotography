@@ -13,7 +13,7 @@ class Collection extends Component {
 
   render() {
     return (
-      <div className="container">
+      <div className="container-fluid center-container">
         <div className="collection-title">{this.data.title}</div>
         <div className="photos-container">
           {
