@@ -4,6 +4,10 @@
 }
 
 .photos-container {
-  padding-top: 30px;
   margin: 0 auto;
+}
+
+.collection-title {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
