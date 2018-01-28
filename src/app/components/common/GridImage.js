@@ -3,10 +3,12 @@ import './GridImage.css';
 
 class GridImage extends Component {
   render() {
+    const containerClass = this.props.view === 'photos' ? 'image-container' : 'square-image-container';
+    const imageClass = this.props.view === 'photos' ? 'image' : 'square-image';
     return (
-      <div className="square-image-container">
+      <div className={containerClass}>
         <img
-          className="square-image"
+          className={imageClass}
           src={this.props.src}
           alt={this.props.alt}
         />

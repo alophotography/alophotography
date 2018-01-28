@@ -2,7 +2,10 @@ import React, { Component } from 'react';
 
 import { CamerasData } from '../../data/CamerasData.js';
 import Photo from '../common/Photo.js'
+import PhotosGrid from '../common/PhotosGrid.js'
 import './Camera.css';
+
+const COLUMNS = 3;
 
 class Camera extends Component {
 
@@ -12,7 +15,7 @@ class Camera extends Component {
   }
 
   render() {
-    return (
+    const listView = (
       <div className="container-fluid center-container">
         <div className="camera-title">{this.data.title}</div>
         <div className="photos-container">
@@ -30,6 +33,13 @@ class Camera extends Component {
         </div>
       </div>
     );
+    const gridView = (
+      <PhotosGrid
+        data={this.data.photos}
+        columns={COLUMNS}
+      />
+    );
+    return gridView;
   }
 }
 
