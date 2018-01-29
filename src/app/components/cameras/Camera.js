@@ -16,21 +16,18 @@ class Camera extends Component {
 
   render() {
     const listView = (
-      <div className="container-fluid center-container">
-        <div className="camera-title">{this.data.title}</div>
-        <div className="photos-container">
-          {
-            this.data.photos.map((photo, i) => {
-              return (
-                <Photo
-                  key={i}
-                  data={photo}
-                  view={'camera'}
-                />
-              )
-            })
-          }
-        </div>
+      <div className="photos-container">
+        {
+          this.data.photos.map((photo, i) => {
+            return (
+              <Photo
+                key={i}
+                data={photo}
+                view={'camera'}
+              />
+            )
+          })
+        }
       </div>
     );
     const gridView = (
@@ -39,7 +36,24 @@ class Camera extends Component {
         columns={COLUMNS}
       />
     );
-    return gridView;
+    return (
+      <div className="container-fluid center-container">
+        <div className="camera-info-container">
+          <div className="camera-img-container">
+            <img
+              className="camera-img"
+              src={this.data.cover}
+              alt={this.data.title}
+            />
+          </div>
+          <div className="camera-details-container">
+            <div className="camera-title">{this.data.title}</div>
+            <div className="camera-info">{this.data.info}</div>
+          </div>
+        </div>
+        {gridView}
+      </div>
+    );
   }
 }
 
