@@ -31,8 +31,6 @@ class Photo extends Component {
       format
     } = this.props.data;
 
-    console.log(this.props.view);
-
     const filmFormat = film + ' (' + format + ')';
     let descInfo;
     if (this.props.view === 'collection') {

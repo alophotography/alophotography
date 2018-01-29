@@ -20,10 +20,10 @@ class Camera extends Component {
         <div className="camera-title">{this.data.title}</div>
         <div className="photos-container">
           {
-            this.data.photos.map((photo) => {
+            this.data.photos.map((photo, i) => {
               return (
                 <Photo
-                  key={photo.id}
+                  key={i}
                   data={photo}
                   view={'camera'}
                 />
