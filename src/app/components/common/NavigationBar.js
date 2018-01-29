@@ -10,8 +10,7 @@ class NavigationBar extends Component {
     this.navBarOptions = [
       {title: 'collections', link: '/collections'}, // expose or look
       {title: 'cameras', link: '/cameras'}, // click
-      {title: 'about', link: ''}, // read
-      {title: 'contact', link: ''} // contact
+      {title: 'about + contact', link: ''}, // read
     ];
   }
 
