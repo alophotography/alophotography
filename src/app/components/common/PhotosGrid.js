@@ -51,7 +51,7 @@ class PhotosGrid extends Component {
 
   render() {
     return (
-      <div className="container">
+      <div className="container grid-container">
         {this.renderRows(this.props.data)}
       </div>
     );
