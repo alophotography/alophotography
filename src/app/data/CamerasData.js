@@ -27,17 +27,17 @@ export const CamerasData = [
       'Made in Japan\n' +
       'Released in 1983'
   },
-  {
-    id: CAMERAS.MINOLTA_X700,
-    title: CAMERAS.MINOLTA_X700,
-    date: '',
-    cover: 'https://i.imgur.com/K8NKvci.jpg?1',
-    photos: minoltaX700,
-    info:
-      'Camera type: Single-lens reflex\n' +
-      'Film format: 35mm\n' +
-      'Lens: Minolta MD 50mm 1:2\n' +
-      // 'Made in Japan\n' +
-      'Released in 1981'
-  }
+  // {
+  //   id: CAMERAS.MINOLTA_X700,
+  //   title: CAMERAS.MINOLTA_X700,
+  //   date: '',
+  //   cover: 'https://i.imgur.com/K8NKvci.jpg?1',
+  //   photos: minoltaX700,
+  //   info:
+  //     'Camera type: Single-lens reflex\n' +
+  //     'Film format: 35mm\n' +
+  //     'Lens: Minolta MD 50mm 1:2\n' +
+  //     // 'Made in Japan\n' +
+  //     'Released in 1981'
+  // }
 ]
