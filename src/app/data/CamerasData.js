@@ -15,7 +15,7 @@ PhotosData.map((photo) => {
 
 export const CamerasData = [
   {
-    id: CAMERAS.MAMIYA_C330S,
+    id: 'mamiya-c330s',
     title: CAMERAS.MAMIYA_C330S,
     date: '',
     cover: 'https://i.imgur.com/K8NKvci.jpg?1',
@@ -28,7 +28,7 @@ export const CamerasData = [
       'Released in 1983'
   },
   // {
-  //   id: CAMERAS.MINOLTA_X700,
+  //   id: minolta-x700,
   //   title: CAMERAS.MINOLTA_X700,
   //   date: '',
   //   cover: 'https://i.imgur.com/K8NKvci.jpg?1',

@@ -11,7 +11,11 @@ class Camera extends Component {
 
   constructor(props) {
     super(props);
-    this.data = CamerasData[this.props.match.params.camera];
+    this.data = CamerasData.find(data => data.id === this.props.match.params.camera);
+  }
+
+  componentDidMount() {
+    window.scrollTo(0,0);
   }
 
   render() {

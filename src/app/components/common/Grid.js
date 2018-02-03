@@ -36,13 +36,16 @@ class Grid extends Component {
               <div className="col-sm" key={i+index}>
                 {(data !== undefined) &&
                   <div>
-                    <Link to={`/${view}/${i+index}`} className="img-title">
+                    <Link
+                      to={`/${view}/${data.id}`}
+                      className="img-title"
+                    >
                       <GridImage
                         src={data.cover}
                         alt={data.title}
                       />
                     </Link>
-                    <Link to={`/${view}/${i}`} className="img-title">
+                    <Link to={`/${view}/${data.id}`} className="img-title">
                       {data.title}
                     </Link>
                   </div>

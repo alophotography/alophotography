@@ -8,7 +8,11 @@ class Collection extends Component {
 
   constructor(props) {
     super(props);
-    this.data = CollectionsData[this.props.match.params.collection];
+    this.data = CollectionsData.find(data => data.id === this.props.match.params.collection);
+  }
+
+  componentDidMount() {
+    window.scrollTo(0,0);
   }
 
   render() {

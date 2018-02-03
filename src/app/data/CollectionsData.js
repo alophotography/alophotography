@@ -1,81 +1,81 @@
 import { COLLECTION_TITLES } from '../constants/CollectionsConstants.js';
 import { PhotosData } from './PhotosData.js';
 
-const collec1 = [];
-const collec2 = [];
-const collec3 = [];
-const collec4 = [];
-const collec5 = [];
-const collec6 = [];
-const collec7 = [];
+const shanghaiMemories = [];
+const berkeleyDec2017 = [];
+const weekends = [];
+const commute = [];
+const whiteChristmas = [];
+const genoa = [];
+const cityOfAngels = [];
 
 PhotosData.map((photo) => {
-  if (photo.collection === 'collection-1') {
-    collec1.push(photo);
-  } else if (photo.collection === 'collection-2') {
-    collec2.push(photo);
-  } else if (photo.collection === 'collection-3') {
-    collec3.push(photo);
-  } else if (photo.collection === 'collection-4') {
-    collec4.push(photo);
-  } else if (photo.collection === 'collection-5') {
-    collec5.push(photo);
-  } else if (photo.collection === 'collection-6') {
-    collec6.push(photo);
-  } else if (photo.collection === 'collection-7') {
-    collec7.push(photo);
+  if (photo.collection === 'shanghai-memories') {
+    shanghaiMemories.push(photo);
+  } else if (photo.collection === 'berkeley-dec-2017') {
+    berkeleyDec2017.push(photo);
+  } else if (photo.collection === 'weekends') {
+    weekends.push(photo);
+  } else if (photo.collection === 'commute') {
+    commute.push(photo);
+  } else if (photo.collection === 'white-christmas') {
+    whiteChristmas.push(photo);
+  } else if (photo.collection === 'genoa') {
+    genoa.push(photo);
+  } else if (photo.collection === 'city-of-angels') {
+    cityOfAngels.push(photo);
   }
   return null;
 })
 
 export const CollectionsData = [
   {
-    id: 'collection-7',
-    title: COLLECTION_TITLES['collection-7'],
+    id: 'city-of-angels',
+    title: COLLECTION_TITLES['city-of-angels'],
     date: '',
     cover: 'https://i.imgur.com/399S4Ci.jpg',
-    photos: collec7
+    photos: cityOfAngels
   },
   {
-    id: 'collection-6',
-    title: COLLECTION_TITLES['collection-6'],
+    id: 'genoa',
+    title: COLLECTION_TITLES['genoa'],
     date: '',
     cover: 'https://i.imgur.com/t9uLwWr.jpg',
-    photos: collec6
+    photos: genoa
   },
   {
-    id: 'collection-5',
-    title: COLLECTION_TITLES['collection-5'],
+    id: 'white-christmas',
+    title: COLLECTION_TITLES['white-christmas'],
     date: '',
     cover: 'https://i.imgur.com/cnAclK7.jpg',
-    photos: collec5
+    photos: whiteChristmas
   },
   {
-    id: 'collection-4',
-    title: COLLECTION_TITLES['collection-4'],
+    id: 'commute',
+    title: COLLECTION_TITLES['commute'],
     date: '',
     cover: 'https://i.imgur.com/WHIHtMo.jpg',
-    photos: collec4
+    photos: commute
   },
   {
-    id: 'collection-3',
-    title: COLLECTION_TITLES['collection-3'],
+    id: 'weekends',
+    title: COLLECTION_TITLES['weekends'],
     date: '',
     cover: 'https://i.imgur.com/2EWPG4n.jpg',
-    photos: collec3
+    photos: weekends
   },
   {
-    id: 'collection-2',
-    title: COLLECTION_TITLES['collection-2'],
+    id: 'berkeley-dec-2017',
+    title: COLLECTION_TITLES['berkeley-dec-2017'],
     date: '',
     cover: 'https://i.imgur.com/mAQidIn.jpg',
-    photos: collec2
+    photos: berkeleyDec2017
   },
   {
-    id: 'collection-1',
-    title: COLLECTION_TITLES['collection-1'],
+    id: 'shanghai-memories',
+    title: COLLECTION_TITLES['shanghai-memories'],
     date: '',
     cover: 'https://i.imgur.com/N3X1Ioq.jpg',
-    photos: collec1
+    photos: shanghaiMemories
   }
 ]
