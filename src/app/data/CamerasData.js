@@ -3,12 +3,15 @@ import { PhotosData } from './PhotosData.js';
 
 const mamiyaC330s = [];
 const minoltaX700 = [];
+const polaroid690 = [];
 
 PhotosData.map((photo) => {
   if (photo.camera === CAMERAS.MAMIYA_C330S) {
     mamiyaC330s.push(photo);
   } else if (photo.camera === CAMERAS.MINOLTA_X700) {
     minoltaX700.push(photo);
+  } else if (photo.camera === CAMERAS.POLAROID_690) {
+    polaroid690.push(photo);
   }
   return null;
 })
@@ -28,7 +31,7 @@ export const CamerasData = [
       'Released in 1983'
   },
   // {
-  //   id: minolta-x700,
+  //   id: 'minolta-x700',
   //   title: CAMERAS.MINOLTA_X700,
   //   date: '',
   //   cover: 'https://i.imgur.com/K8NKvci.jpg?1',
@@ -39,5 +42,18 @@ export const CamerasData = [
   //     'Lens: Minolta MD 50mm 1:2\n' +
   //     // 'Made in Japan\n' +
   //     'Released in 1981'
+  // },
+  // {
+  //   id: 'polaroid-690',
+  //   title: CAMERAS.POLAROID_690,
+  //   date: '',
+  //   cover: 'https://i.imgur.com/K8NKvci.jpg?1',
+  //   photos: polaroid690,
+  //   info:
+  //     'Camera type: Single-lens reflex\n' +
+  //     'Film format: Instant film\n' +
+  //     'Lens: 116mm f/8\n' +
+  //     // 'Made in Japan\n' +
+  //     'Released in 1996 '
   // }
 ]
