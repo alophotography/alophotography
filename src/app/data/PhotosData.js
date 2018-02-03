@@ -189,7 +189,8 @@ export const PhotosData = [
     collection: 'berkeley-dec-2017',
     camera: CAMERAS.MINOLTA_X700,
     film: 'Kodak Portra 400',
-    format: '35mm'
+    format: '35mm',
+    orientation: 'portrait'
   },
   {
     img: 'https://i.imgur.com/gCTdEZs.jpg',
@@ -198,7 +199,8 @@ export const PhotosData = [
     collection: 'berkeley-dec-2017',
     camera: CAMERAS.MINOLTA_X700,
     film: 'Kodak Portra 400',
-    format: '35mm'
+    format: '35mm',
+    orientation: 'portrait'
   },
   {
     img: 'https://i.imgur.com/Ovok6hE.jpg',
@@ -441,19 +443,21 @@ export const PhotosData = [
     collection: 'city-of-angels',
     camera: CAMERAS.MINOLTA_X700,
     film: 'Kodak GOLD 200',
-    format: '35mm'
+    format: '35mm',
+    orientation: 'portrait'
   },
   {
-    img: 'https://i.imgur.com/MqSckzV.jpg',
+    img: 'https://i.imgur.com/Qiy6kTj.jpg',
     date: '',
     location: 'Los Angeles, CA',
     collection: 'city-of-angels',
     camera: CAMERAS.MINOLTA_X700,
     film: 'Kodak GOLD 200',
-    format: '35mm'
+    format: '35mm',
+    orientation: 'portrait'
   },
   {
-    img: 'https://i.imgur.com/Qiy6kTj.jpg',
+    img: 'https://i.imgur.com/MqSckzV.jpg',
     date: '',
     location: 'Los Angeles, CA',
     collection: 'city-of-angels',
@@ -504,7 +508,8 @@ export const PhotosData = [
     collection: 'city-of-angels',
     camera: CAMERAS.MINOLTA_X700,
     film: 'Kodak GOLD 200',
-    format: '35mm'
+    format: '35mm',
+    orientation: 'portrait'
   },
   {
     img: 'https://i.imgur.com/Jx6XdZr.jpg',
@@ -513,7 +518,8 @@ export const PhotosData = [
     collection: 'city-of-angels',
     camera: CAMERAS.MINOLTA_X700,
     film: 'Kodak GOLD 200',
-    format: '35mm'
+    format: '35mm',
+    orientation: 'portrait'
   },
   {
     img: 'https://i.imgur.com/wDo8Xxf.jpg',
@@ -540,7 +546,8 @@ export const PhotosData = [
     collection: 'city-of-angels',
     camera: CAMERAS.MINOLTA_X700,
     film: 'Kodak GOLD 200',
-    format: '35mm'
+    format: '35mm',
+    orientation: 'portrait'
   },
   {
     img: 'https://i.imgur.com/UXVFWGr.jpg',
@@ -549,7 +556,8 @@ export const PhotosData = [
     collection: 'city-of-angels',
     camera: CAMERAS.MINOLTA_X700,
     film: 'Kodak GOLD 200',
-    format: '35mm'
+    format: '35mm',
+    orientation: 'portrait'
   },
   {
     img: 'https://i.imgur.com/n1c94gU.jpg',
@@ -567,7 +575,8 @@ export const PhotosData = [
     collection: 'city-of-angels',
     camera: CAMERAS.MINOLTA_X700,
     film: 'Kodak GOLD 200',
-    format: '35mm'
+    format: '35mm',
+    orientation: 'portrait'
   },
   {
     img: 'https://i.imgur.com/0dEev89.jpg',
@@ -576,7 +585,8 @@ export const PhotosData = [
     collection: 'city-of-angels',
     camera: CAMERAS.MINOLTA_X700,
     film: 'Kodak GOLD 200',
-    format: '35mm'
+    format: '35mm',
+    orientation: 'portrait'
   },
   {
     img: 'https://i.imgur.com/WvooAhV.jpg',

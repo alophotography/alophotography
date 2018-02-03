@@ -34,7 +34,7 @@ class Photo extends Component {
     const filmFormat = film + ' (' + format + ')';
     let descInfo;
     if (this.props.view === 'collection') {
-      descInfo = [date, location, camera, filmFormat];
+      descInfo = [date, location, camera, film];
     } else if (this.props.view === 'camera') {
       descInfo = [film, collection, location, date];
     }
