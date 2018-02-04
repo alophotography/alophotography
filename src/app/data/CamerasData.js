@@ -13,7 +13,7 @@ PhotosData.map((photo) => {
     minoltaX700.push(photo);
   } else if (photo.camera === CAMERAS.POLAROID_690) {
     polaroid690.push(photo);
-  } else if (photos.camera === CAMERAS.INSTAX_WIDE_210) {
+  } else if (photo.camera === CAMERAS.INSTAX_WIDE_210) {
     instaxwide210.push(photo);
   }
   return null;
