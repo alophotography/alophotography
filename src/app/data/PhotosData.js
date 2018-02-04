@@ -258,6 +258,26 @@ export const PhotosData = [
     film: 'Kodak GOLD 200',
     format: '35mm'
   },
+  {
+    img: 'https://i.imgur.com/Dom1DHe.jpg',
+    date: '',
+    location: 'Portland, OR',
+    collection: 'weekends',
+    camera: CAMERAS.POLAROID_690,
+    film: '',
+    format: 'polaroid',
+    orientation: 'vertical'
+  },
+  {
+    img: 'https://i.imgur.com/trOf0UK.jpg',
+    date: '',
+    location: 'Portland, OR',
+    collection: 'weekends',
+    camera: CAMERAS.POLAROID_690,
+    film: '',
+    format: 'polaroid',
+    orientation: 'vertical'
+  },
 // commute
   {
     img: 'https://i.imgur.com/WHIHtMo.jpg',
@@ -478,7 +498,18 @@ export const PhotosData = [
     collection: 'city-of-angels',
     camera: CAMERAS.INSTAX_WIDE_210,
     film: '',
-    format: 'polaroid'
+    format: 'polaroid',
+    orientation: 'horizontal'
+  },
+  {
+    img: 'https://i.imgur.com/uNmK3yl.jpg',
+    date: '',
+    location: 'Los Angeles, CA',
+    collection: 'city-of-angels',
+    camera: CAMERAS.POLAROID_690,
+    film: '',
+    format: 'polaroid',
+    orientation: 'vertical'
   },
   {
     img: 'https://i.imgur.com/vYQ0tHw.jpg',
@@ -552,7 +583,8 @@ export const PhotosData = [
     collection: 'city-of-angels',
     camera: CAMERAS.INSTAX_WIDE_210,
     film: '',
-    format: 'polaroid'
+    format: 'polaroid',
+    orientation: 'horizontal'
   },
   {
     img: 'https://i.imgur.com/8r9KoEE.jpg',
@@ -599,7 +631,8 @@ export const PhotosData = [
     collection: 'city-of-angels',
     camera: CAMERAS.INSTAX_WIDE_210,
     film: '',
-    format: 'polaroid'
+    format: 'polaroid',
+    orientation: 'horizontal'
   },
   {
     img: 'https://i.imgur.com/DwjaqzZ.jpg',
@@ -620,6 +653,16 @@ export const PhotosData = [
     film: 'Kodak GOLD 200',
     format: '35mm',
     orientation: 'portrait'
+  },
+  {
+    img: 'https://i.imgur.com/XfsAJBW.jpg',
+    date: '',
+    location: 'El Matador State Beach, CA',
+    collection: 'city-of-angels',
+    camera: CAMERAS.POLAROID_690,
+    film: '',
+    format: 'polaroid',
+    orientation: 'vertical'
   },
   {
     img: 'https://i.imgur.com/WvooAhV.jpg',
@@ -646,7 +689,8 @@ export const PhotosData = [
     collection: 'city-of-angels',
     camera: CAMERAS.INSTAX_WIDE_210,
     film: '',
-    format: 'polaroid'
+    format: 'polaroid',
+    orientation: 'horizontal'
   },
 // paradise
   {
@@ -656,7 +700,8 @@ export const PhotosData = [
     collection: 'paradise',
     camera: CAMERAS.INSTAX_WIDE_210,
     film: '',
-    format: 'polaroid'
+    format: 'polaroid',
+    orientation: 'horizontal'
   },
   {
     img: 'https://i.imgur.com/hWRBUQY.png',
@@ -665,7 +710,8 @@ export const PhotosData = [
     collection: 'paradise',
     camera: CAMERAS.INSTAX_WIDE_210,
     film: '',
-    format: 'polaroid'
+    format: 'polaroid',
+    orientation: 'horizontal'
   },
   {
     img: 'https://i.imgur.com/3HC0kL1.png',
@@ -674,7 +720,8 @@ export const PhotosData = [
     collection: 'paradise',
     camera: CAMERAS.INSTAX_WIDE_210,
     film: '',
-    format: 'polaroid'
+    format: 'polaroid',
+    orientation: 'horizontal'
   },
   {
     img: 'https://i.imgur.com/R86wsA0.png',
@@ -683,7 +730,8 @@ export const PhotosData = [
     collection: 'paradise',
     camera: CAMERAS.INSTAX_WIDE_210,
     film: '',
-    format: 'polaroid'
+    format: 'polaroid',
+    orientation: 'horizontal'
   },
   {
     img: 'https://i.imgur.com/q22VvTJ.png',
@@ -692,7 +740,8 @@ export const PhotosData = [
     collection: 'paradise',
     camera: CAMERAS.INSTAX_WIDE_210,
     film: '',
-    format: 'polaroid'
+    format: 'polaroid',
+    orientation: 'horizontal'
   },
   {
     img: 'https://i.imgur.com/75kmOig.png',
@@ -701,7 +750,8 @@ export const PhotosData = [
     collection: 'paradise',
     camera: CAMERAS.INSTAX_WIDE_210,
     film: '',
-    format: 'polaroid'
+    format: 'polaroid',
+    orientation: 'horizontal'
   },
   {
     img: 'https://i.imgur.com/bYf0BwH.png',
@@ -710,7 +760,8 @@ export const PhotosData = [
     collection: 'paradise',
     camera: CAMERAS.INSTAX_WIDE_210,
     film: '',
-    format: 'polaroid'
+    format: 'polaroid',
+    orientation: 'horizontal'
   },
   {
     img: 'https://i.imgur.com/Q3ScrXm.png',
@@ -719,7 +770,8 @@ export const PhotosData = [
     collection: 'paradise',
     camera: CAMERAS.INSTAX_WIDE_210,
     film: '',
-    format: 'polaroid'
+    format: 'polaroid',
+    orientation: 'horizontal'
   },
   {
     img: 'https://i.imgur.com/70hipbh.png',
@@ -728,7 +780,8 @@ export const PhotosData = [
     collection: 'paradise',
     camera: CAMERAS.INSTAX_WIDE_210,
     film: '',
-    format: 'polaroid'
+    format: 'polaroid',
+    orientation: 'horizontal'
   },
   {
     img: 'https://i.imgur.com/LtxwAnJ.png',
@@ -737,7 +790,8 @@ export const PhotosData = [
     collection: 'paradise',
     camera: CAMERAS.INSTAX_WIDE_210,
     film: '',
-    format: 'polaroid'
+    format: 'polaroid',
+    orientation: 'horizontal'
   },
   {
     img: 'https://i.imgur.com/0G9sZd2.png',
@@ -746,7 +800,8 @@ export const PhotosData = [
     collection: 'paradise',
     camera: CAMERAS.INSTAX_WIDE_210,
     film: '',
-    format: 'polaroid'
+    format: 'polaroid',
+    orientation: 'horizontal'
   },
   {
     img: 'https://i.imgur.com/0Vv6AGA.png',
@@ -755,7 +810,8 @@ export const PhotosData = [
     collection: 'paradise',
     camera: CAMERAS.INSTAX_WIDE_210,
     film: '',
-    format: 'polaroid'
+    format: 'polaroid',
+    orientation: 'horizontal'
   },
   {
     img: 'https://i.imgur.com/eapB6r0.png',
@@ -764,7 +820,8 @@ export const PhotosData = [
     collection: 'paradise',
     camera: CAMERAS.INSTAX_WIDE_210,
     film: '',
-    format: 'polaroid'
+    format: 'polaroid',
+    orientation: 'horizontal'
   },
   {
     img: 'https://i.imgur.com/MmtFpmp.png',
@@ -773,7 +830,8 @@ export const PhotosData = [
     collection: 'paradise',
     camera: CAMERAS.INSTAX_WIDE_210,
     film: '',
-    format: 'polaroid'
+    format: 'polaroid',
+    orientation: 'horizontal'
   },
   {
     img: 'https://i.imgur.com/YogbClt.png',
@@ -782,7 +840,8 @@ export const PhotosData = [
     collection: 'paradise',
     camera: CAMERAS.INSTAX_WIDE_210,
     film: '',
-    format: 'polaroid'
+    format: 'polaroid',
+    orientation: 'horizontal'
   },
   {
     img: 'https://i.imgur.com/SiltcY8.png',
@@ -791,7 +850,8 @@ export const PhotosData = [
     collection: 'paradise',
     camera: CAMERAS.INSTAX_WIDE_210,
     film: '',
-    format: 'polaroid'
+    format: 'polaroid',
+    orientation: 'horizontal'
   },
   {
     img: 'https://i.imgur.com/8BR8Ui9.png',
@@ -800,6 +860,7 @@ export const PhotosData = [
     collection: 'paradise',
     camera: CAMERAS.INSTAX_WIDE_210,
     film: '',
-    format: 'polaroid'
+    format: 'polaroid',
+    orientation: 'horizontal'
   }
 ];

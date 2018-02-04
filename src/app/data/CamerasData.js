@@ -4,6 +4,7 @@ import { PhotosData } from './PhotosData.js';
 const mamiyaC330s = [];
 const minoltaX700 = [];
 const polaroid690 = [];
+const instaxwide210 = [];
 
 PhotosData.map((photo) => {
   if (photo.camera === CAMERAS.MAMIYA_C330S) {
@@ -12,6 +13,8 @@ PhotosData.map((photo) => {
     minoltaX700.push(photo);
   } else if (photo.camera === CAMERAS.POLAROID_690) {
     polaroid690.push(photo);
+  } else if (photos.camera === CAMERAS.INSTAX_WIDE_210) {
+    instaxwide210.push(photo);
   }
   return null;
 })
@@ -50,10 +53,22 @@ export const CamerasData = [
   //   cover: 'https://i.imgur.com/K8NKvci.jpg?1',
   //   photos: polaroid690,
   //   info:
-  //     'Camera type: Single-lens reflex\n' +
+  //     'Camera type: Single-lens reflex instant camera\n' +
   //     'Film format: Instant film\n' +
   //     'Lens: 116mm f/8\n' +
   //     // 'Made in Japan\n' +
   //     'Released in 1996 '
+  // },
+  // {
+  //   id: 'instax-wide-210',
+  //   title: CAMERAS.INSTAX_WIDE_210,
+  //   date: '',
+  //   cover: 'https://i.imgur.com/K8NKvci.jpg?1',
+  //   photos: instaxwide210,
+  //   info:
+  //     'Camera type: Instant camera\n' +
+  //     'Film format: Instant film\n' +
+  //     'Lens: 95mm f/14\n' +
+  //     'Released in 2009 '
   // }
 ]

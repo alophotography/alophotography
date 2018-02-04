@@ -28,7 +28,8 @@ class Photo extends Component {
       collection,
       camera,
       film,
-      format
+      format,
+      orientation
     } = this.props.data;
 
     const filmFormat = format !== 'polaroid' ? film + ' (' + format + ')' : '';
@@ -51,7 +52,9 @@ class Photo extends Component {
       }
     }
 
-    const imgClass = format === 'polaroid' ? "polaroid" : "photo";
+    const orientationClass = format === 'polaroid' ? orientation : '';
+    const polaroidClass = orientationClass.length !== 0 ? "polaroid " + orientationClass : 'polaroid';
+    const imgClass = format === 'polaroid' ? polaroidClass : "photo";
 
     return (
       <div
