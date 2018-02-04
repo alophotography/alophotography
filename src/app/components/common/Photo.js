@@ -31,7 +31,7 @@ class Photo extends Component {
       format
     } = this.props.data;
 
-    const filmFormat = film + ' (' + format + ')';
+    const filmFormat = format !== 'polaroid' ? film + ' (' + format + ')' : '';
     let descInfo;
     if (this.props.view === 'collection') {
       descInfo = [date, location, camera, film];
@@ -42,7 +42,7 @@ class Photo extends Component {
 
     for (let i = 0; i < descInfo.length; i++) {
       const info = descInfo[i];
-      if (info.length !== 0) {
+      if (info && info.length !== 0) {
         description += info;
         if (i < descInfo.length - 1 &&
           (i+1 < descInfo.length && descInfo[i+1].length !== 0)) {
@@ -51,12 +51,14 @@ class Photo extends Component {
       }
     }
 
+    const imgClass = format === 'polaroid' ? "polaroid" : "photo";
+
     return (
       <div
         className="photo-container"
       >
         <img
-          className="photo"
+          className={imgClass}
           src={img}
           alt={id}
           onMouseEnter={this.handleMouseHover}

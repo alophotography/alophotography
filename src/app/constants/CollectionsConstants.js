@@ -5,5 +5,6 @@ export const COLLECTION_TITLES = {
   'commute': 'Commute',
   'white-christmas': 'White Christmas',
   'genoa': 'Genoa',
-  'city-of-angels': 'City of Angels'
+  'city-of-angels': 'City of Angels',
+  'paradise': 'Paradise'
 }

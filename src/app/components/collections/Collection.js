@@ -45,6 +45,7 @@ class Collection extends Component {
                   key={i}
                   data={photo}
                   view={'collection'}
+                  format={photo.format}
                 />
               )
             })

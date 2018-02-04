@@ -8,6 +8,7 @@ const commute = [];
 const whiteChristmas = [];
 const genoa = [];
 const cityOfAngels = [];
+const paradise = [];
 
 PhotosData.map((photo) => {
   if (photo.collection === 'shanghai-memories') {
@@ -24,11 +25,20 @@ PhotosData.map((photo) => {
     genoa.push(photo);
   } else if (photo.collection === 'city-of-angels') {
     cityOfAngels.push(photo);
+  } else if (photo.collection === 'paradise') {
+    paradise.push(photo);
   }
   return null;
 })
 
 export const CollectionsData = [
+  {
+    id: 'paradise',
+    title: COLLECTION_TITLES['paradise'],
+    date: '',
+    cover: 'https://i.imgur.com/0mkoz8i.png',
+    photos: paradise
+  },
   {
     id: 'city-of-angels',
     title: COLLECTION_TITLES['city-of-angels'],

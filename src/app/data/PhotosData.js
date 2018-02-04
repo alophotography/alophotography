@@ -1,7 +1,7 @@
 import { CAMERAS } from '../constants/CamerasConstants.js';
 
 export const PhotosData = [
-
+// shanghai-memories
   {
     img: 'https://i.imgur.com/N3X1Ioq.jpg',
     date: '',
@@ -20,6 +20,7 @@ export const PhotosData = [
     film: 'Kodak Portra 400',
     format: '120mm'
   },
+// berkeley-dec-2017
   {
     img: 'https://i.imgur.com/bZfoOFT.jpg',
     date: '',
@@ -220,6 +221,7 @@ export const PhotosData = [
     film: 'Kodak Portra 400',
     format: '35mm'
   },
+// weekends
   {
     img: 'https://i.imgur.com/2EWPG4n.jpg',
     date: '',
@@ -256,6 +258,7 @@ export const PhotosData = [
     film: 'Kodak GOLD 200',
     format: '35mm'
   },
+// commute
   {
     img: 'https://i.imgur.com/WHIHtMo.jpg',
     date: '',
@@ -310,6 +313,7 @@ export const PhotosData = [
     film: 'Kodak GOLD 200',
     format: '35mm'
   },
+// white-christmas
   {
     img: 'https://i.imgur.com/cnAclK7.jpg',
     date: '',
@@ -328,6 +332,7 @@ export const PhotosData = [
     film: 'Kodak GOLD 200',
     format: '35mm'
   },
+// genoa
   {
     img: 'https://i.imgur.com/t9uLwWr.jpg',
     date: '',
@@ -409,6 +414,7 @@ export const PhotosData = [
     film: 'Kodak GOLD 200',
     format: '35mm'
   },
+// city-of-angels
   {
     img: 'https://i.imgur.com/399S4Ci.jpg',
     date: '',
@@ -464,6 +470,15 @@ export const PhotosData = [
     camera: CAMERAS.MINOLTA_X700,
     film: 'Kodak GOLD 200',
     format: '35mm'
+  },
+  {
+    img: 'https://i.imgur.com/pvnAe5n.jpg',
+    date: '',
+    location: 'Los Angeles, CA',
+    collection: 'city-of-angels',
+    camera: CAMERAS.INSTAX_WIDE_210,
+    film: '',
+    format: 'polaroid'
   },
   {
     img: 'https://i.imgur.com/vYQ0tHw.jpg',
@@ -531,6 +546,15 @@ export const PhotosData = [
     format: '35mm'
   },
   {
+    img: 'https://i.imgur.com/qM9eY82.jpg',
+    date: '',
+    location: 'Los Angeles, CA',
+    collection: 'city-of-angels',
+    camera: CAMERAS.INSTAX_WIDE_210,
+    film: '',
+    format: 'polaroid'
+  },
+  {
     img: 'https://i.imgur.com/8r9KoEE.jpg',
     date: '',
     location: 'Los Angeles, CA',
@@ -569,6 +593,15 @@ export const PhotosData = [
     format: '35mm'
   },
   {
+    img: 'https://i.imgur.com/y7GKCRS.jpg',
+    date: '',
+    location: 'Los Angeles, CA',
+    collection: 'city-of-angels',
+    camera: CAMERAS.INSTAX_WIDE_210,
+    film: '',
+    format: 'polaroid'
+  },
+  {
     img: 'https://i.imgur.com/DwjaqzZ.jpg',
     date: '',
     location: 'El Matador State Beach, CA',
@@ -605,6 +638,168 @@ export const PhotosData = [
     camera: CAMERAS.MINOLTA_X700,
     film: 'Kodak GOLD 200',
     format: '35mm'
+  },
+  {
+    img: 'https://i.imgur.com/GuyPoW5.png',
+    date: '',
+    location: 'Los Angeles, CA',
+    collection: 'city-of-angels',
+    camera: CAMERAS.INSTAX_WIDE_210,
+    film: '',
+    format: 'polaroid'
+  },
+// paradise
+  {
+    img: 'https://i.imgur.com/VNY84B7.png',
+    date: '',
+    location: 'Kauai, HI',
+    collection: 'paradise',
+    camera: CAMERAS.INSTAX_WIDE_210,
+    film: '',
+    format: 'polaroid'
+  },
+  {
+    img: 'https://i.imgur.com/hWRBUQY.png',
+    date: '',
+    location: 'Kauai, HI',
+    collection: 'paradise',
+    camera: CAMERAS.INSTAX_WIDE_210,
+    film: '',
+    format: 'polaroid'
+  },
+  {
+    img: 'https://i.imgur.com/3HC0kL1.png',
+    date: '',
+    location: 'Kauai, HI',
+    collection: 'paradise',
+    camera: CAMERAS.INSTAX_WIDE_210,
+    film: '',
+    format: 'polaroid'
+  },
+  {
+    img: 'https://i.imgur.com/R86wsA0.png',
+    date: '',
+    location: 'Kauai, HI',
+    collection: 'paradise',
+    camera: CAMERAS.INSTAX_WIDE_210,
+    film: '',
+    format: 'polaroid'
+  },
+  {
+    img: 'https://i.imgur.com/q22VvTJ.png',
+    date: '',
+    location: 'Kauai, HI',
+    collection: 'paradise',
+    camera: CAMERAS.INSTAX_WIDE_210,
+    film: '',
+    format: 'polaroid'
+  },
+  {
+    img: 'https://i.imgur.com/75kmOig.png',
+    date: '',
+    location: 'Kauai, HI',
+    collection: 'paradise',
+    camera: CAMERAS.INSTAX_WIDE_210,
+    film: '',
+    format: 'polaroid'
+  },
+  {
+    img: 'https://i.imgur.com/bYf0BwH.png',
+    date: '',
+    location: 'Kauai, HI',
+    collection: 'paradise',
+    camera: CAMERAS.INSTAX_WIDE_210,
+    film: '',
+    format: 'polaroid'
+  },
+  {
+    img: 'https://i.imgur.com/Q3ScrXm.png',
+    date: '',
+    location: 'Kauai, HI',
+    collection: 'paradise',
+    camera: CAMERAS.INSTAX_WIDE_210,
+    film: '',
+    format: 'polaroid'
+  },
+  {
+    img: 'https://i.imgur.com/70hipbh.png',
+    date: '',
+    location: 'Kauai, HI',
+    collection: 'paradise',
+    camera: CAMERAS.INSTAX_WIDE_210,
+    film: '',
+    format: 'polaroid'
+  },
+  {
+    img: 'https://i.imgur.com/LtxwAnJ.png',
+    date: '',
+    location: 'Kauai, HI',
+    collection: 'paradise',
+    camera: CAMERAS.INSTAX_WIDE_210,
+    film: '',
+    format: 'polaroid'
+  },
+  {
+    img: 'https://i.imgur.com/0G9sZd2.png',
+    date: '',
+    location: 'Kauai, HI',
+    collection: 'paradise',
+    camera: CAMERAS.INSTAX_WIDE_210,
+    film: '',
+    format: 'polaroid'
+  },
+  {
+    img: 'https://i.imgur.com/0Vv6AGA.png',
+    date: '',
+    location: 'Kauai, HI',
+    collection: 'paradise',
+    camera: CAMERAS.INSTAX_WIDE_210,
+    film: '',
+    format: 'polaroid'
+  },
+  {
+    img: 'https://i.imgur.com/eapB6r0.png',
+    date: '',
+    location: 'Kauai, HI',
+    collection: 'paradise',
+    camera: CAMERAS.INSTAX_WIDE_210,
+    film: '',
+    format: 'polaroid'
+  },
+  {
+    img: 'https://i.imgur.com/MmtFpmp.png',
+    date: '',
+    location: 'Kauai, HI',
+    collection: 'paradise',
+    camera: CAMERAS.INSTAX_WIDE_210,
+    film: '',
+    format: 'polaroid'
+  },
+  {
+    img: 'https://i.imgur.com/YogbClt.png',
+    date: '',
+    location: 'Kauai, HI',
+    collection: 'paradise',
+    camera: CAMERAS.INSTAX_WIDE_210,
+    film: '',
+    format: 'polaroid'
+  },
+  {
+    img: 'https://i.imgur.com/SiltcY8.png',
+    date: '',
+    location: 'Kauai, HI',
+    collection: 'paradise',
+    camera: CAMERAS.INSTAX_WIDE_210,
+    film: '',
+    format: 'polaroid'
+  },
+  {
+    img: 'https://i.imgur.com/8BR8Ui9.png',
+    date: '',
+    location: 'Kauai, HI',
+    collection: 'paradise',
+    camera: CAMERAS.INSTAX_WIDE_210,
+    film: '',
+    format: 'polaroid'
   }
-
 ];
