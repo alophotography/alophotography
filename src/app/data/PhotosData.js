@@ -21,7 +21,7 @@ export const PhotosData = [
     format: '120mm'
   },
   {
-    img: 'https://i.imgur.com/mAQidIn.jpg',
+    img: 'https://i.imgur.com/bZfoOFT.jpg',
     date: '',
     location: 'Berkeley, CA',
     collection: 'berkeley-dec-2017',
@@ -39,7 +39,7 @@ export const PhotosData = [
     format: '120mm'
   },
   {
-    img: 'https://i.imgur.com/LVoUaPd.jpg',
+    img: 'https://i.imgur.com/gAn4rUY.jpg',
     date: '',
     location: 'Berkeley, CA',
     collection: 'berkeley-dec-2017',
@@ -48,7 +48,7 @@ export const PhotosData = [
     format: '120mm'
   },
   {
-    img: 'https://i.imgur.com/2rYzEAB.jpg',
+    img: 'https://i.imgur.com/fweLIcp.jpg',
     date: '',
     location: 'Berkeley, CA',
     collection: 'berkeley-dec-2017',
@@ -57,7 +57,7 @@ export const PhotosData = [
     format: '120mm'
   },
   {
-    img: 'https://i.imgur.com/qezZHIo.jpg',
+    img: 'https://i.imgur.com/hbEfwCd.jpg',
     date: '',
     location: 'Berkeley, CA',
     collection: 'berkeley-dec-2017',
@@ -66,7 +66,7 @@ export const PhotosData = [
     format: '120mm'
   },
   {
-    img: 'https://i.imgur.com/Fwt7AvO.jpg',
+    img: 'https://i.imgur.com/WStvWKS.jpg',
     date: '',
     location: 'Berkeley, CA',
     collection: 'berkeley-dec-2017',
@@ -75,7 +75,7 @@ export const PhotosData = [
     format: '120mm'
   },
   {
-    img: 'https://i.imgur.com/IE2erhA.jpg',
+    img: 'https://i.imgur.com/Gz3ek7Y.jpg',
     date: '',
     location: 'Berkeley, CA',
     collection: 'berkeley-dec-2017',
@@ -84,7 +84,7 @@ export const PhotosData = [
     format: '120mm'
   },
   {
-    img: 'https://i.imgur.com/j1g5dAX.jpg',
+    img: 'https://i.imgur.com/TShq4N7.jpg',
     date: '',
     location: 'Berkeley, CA',
     collection: 'berkeley-dec-2017',
