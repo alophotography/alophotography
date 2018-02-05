@@ -29,13 +29,13 @@ class Grid extends Component {
   renderRow = (rowData, index) => {
     const view = this.props.view;
     return (
-      <div className="row align-items-center grid-row" key={index}>
+      <div className="row center-container grid-row" key={index}>
         {
           rowData.map((data, i) => {
             return (
               <div className="col-sm" key={i+index}>
                 {(data !== undefined) &&
-                  <div>
+                  <div className="col-container">
                     <Link
                       to={`/${view}/${data.id}`}
                       className="img-title"
