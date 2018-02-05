@@ -46,7 +46,7 @@ class Camera extends Component {
           <div className="camera-img-container">
             <img
               className="camera-img"
-              src={this.data.cover}
+              src={this.data.img}
               alt={this.data.title}
             />
           </div>

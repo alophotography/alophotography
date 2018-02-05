@@ -24,7 +24,8 @@ export const CamerasData = [
     id: 'mamiya-c330s',
     title: CAMERAS.MAMIYA_C330S,
     date: '',
-    cover: 'https://i.imgur.com/K8NKvci.jpg?1',
+    cover: 'https://i.imgur.com/IEYQQAR.jpg',
+    img: 'https://i.imgur.com/fMfeFgC.jpg',
     photos: mamiyaC330s,
     info:
       'Camera type: Twin-lens reflex\n' +
@@ -33,42 +34,45 @@ export const CamerasData = [
       'Made in Japan\n' +
       'Released in 1983'
   },
-  // {
-  //   id: 'minolta-x700',
-  //   title: CAMERAS.MINOLTA_X700,
-  //   date: '',
-  //   cover: 'https://i.imgur.com/K8NKvci.jpg?1',
-  //   photos: minoltaX700,
-  //   info:
-  //     'Camera type: Single-lens reflex\n' +
-  //     'Film format: 35mm\n' +
-  //     'Lens: Minolta MD 50mm 1:2\n' +
-  //     // 'Made in Japan\n' +
-  //     'Released in 1981'
-  // },
-  // {
-  //   id: 'polaroid-690',
-  //   title: CAMERAS.POLAROID_690,
-  //   date: '',
-  //   cover: 'https://i.imgur.com/K8NKvci.jpg?1',
-  //   photos: polaroid690,
-  //   info:
-  //     'Camera type: Single-lens reflex instant camera\n' +
-  //     'Film format: Instant film\n' +
-  //     'Lens: 116mm f/8\n' +
-  //     // 'Made in Japan\n' +
-  //     'Released in 1996 '
-  // },
-  // {
-  //   id: 'instax-wide-210',
-  //   title: CAMERAS.INSTAX_WIDE_210,
-  //   date: '',
-  //   cover: 'https://i.imgur.com/K8NKvci.jpg?1',
-  //   photos: instaxwide210,
-  //   info:
-  //     'Camera type: Instant camera\n' +
-  //     'Film format: Instant film\n' +
-  //     'Lens: 95mm f/14\n' +
-  //     'Released in 2009 '
-  // }
+  {
+    id: 'minolta-x700',
+    title: CAMERAS.MINOLTA_X700,
+    date: '',
+    cover: 'https://i.imgur.com/gcOtGLK.jpg',
+    img: 'https://i.imgur.com/yKSOyEK.jpg',
+    photos: minoltaX700,
+    info:
+      'Camera type: Single-lens reflex\n' +
+      'Film format: 35mm\n' +
+      'Lens: Minolta MD 50mm 1:2\n' +
+      // 'Made in Japan\n' +
+      'Released in 1981'
+  },
+  {
+    id: 'polaroid-690',
+    title: CAMERAS.POLAROID_690,
+    date: '',
+    cover: 'https://i.imgur.com/7xkKKKv.jpg',
+    img: 'https://i.imgur.com/z4Y1N2S.jpg',
+    photos: polaroid690,
+    info:
+      'Camera type: Single-lens reflex instant camera\n' +
+      'Film format: Instant film\n' +
+      'Lens: 116mm f/8\n' +
+      // 'Made in Japan\n' +
+      'Released in 1996 '
+  },
+  {
+    id: 'instax-wide-210',
+    title: CAMERAS.INSTAX_WIDE_210,
+    date: '',
+    cover: 'https://i.imgur.com/eR15ZCT.jpg',
+    img: 'https://i.imgur.com/FwNUNHD.jpg',
+    photos: instaxwide210,
+    info:
+      'Camera type: Instant camera\n' +
+      'Film format: Instant film\n' +
+      'Lens: 95mm f/14\n' +
+      'Released in 2009 '
+  }
 ]
