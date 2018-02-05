@@ -27,7 +27,7 @@ class PhotosGrid extends Component {
 
   renderRow = (rowData, index) => {
     return (
-      <div className="row align-items-center photo-grid-row" key={index}>
+      <div className="row center-container photo-grid-row" key={index}>
         {
           rowData.map((data, i) => {
             return (
