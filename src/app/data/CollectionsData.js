@@ -78,7 +78,7 @@ export const CollectionsData = [
     id: 'berkeley-dec-2017',
     title: COLLECTION_TITLES['berkeley-dec-2017'],
     date: '',
-    cover: 'https://i.imgur.com/mAQidIn.jpg',
+    cover: 'https://i.imgur.com/bZfoOFT.jpg',
     photos: berkeleyDec2017
   },
   {
