@@ -8,6 +8,11 @@ const COLUMNS = 3;
 class Cameras extends Component {
   componentDidMount() {
     window.scrollTo(0,0);
+    document.title = "ALO Photography | Cameras";
+  }
+
+  componentDidUpdate() {
+    document.title = "ALO Photography | Cameras";
   }
 
   render() {

@@ -8,6 +8,11 @@ const COLUMNS = 3;
 class Collections extends Component {
   componentDidMount() {
     window.scrollTo(0,0);
+    document.title = "ALO Photography | Collections";
+  }
+
+  componentDidUpdate() {
+    document.title = "ALO Photography | Collections";
   }
 
   render() {

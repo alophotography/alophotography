@@ -6,6 +6,11 @@ import Main from './components/common/Main.js';
 import './App.css';
 
 class App extends Component {
+
+  componentDidMount() {
+    document.title = "ALO Photography";
+  }
+
   render() {
     return (
       <div className="app-container">

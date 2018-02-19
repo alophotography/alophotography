@@ -15,6 +15,7 @@ class Collection extends Component {
 
   componentDidMount() {
     window.scrollTo(0,0);
+    document.title = "ALO Photography | " + this.data.title;
   }
 
   render() {
