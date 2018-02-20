@@ -9,6 +9,8 @@ const whiteChristmas = [];
 const genoa = [];
 const cityOfAngels = [];
 const paradise = [];
+const santaCruz = [];
+const firstRoll = [];
 
 PhotosData.map((photo) => {
   if (photo.collection === 'shanghai-memories') {
@@ -27,11 +29,29 @@ PhotosData.map((photo) => {
     cityOfAngels.push(photo);
   } else if (photo.collection === 'paradise') {
     paradise.push(photo);
+  } else if (photo.collection === 'santa-cruz') {
+    santaCruz.push(photo);
+  } else if (photo.collection === 'first-roll') {
+    firstRoll.push(photo);
   }
   return null;
 })
 
 export const CollectionsData = [
+  {
+    id: 'first-roll',
+    title: COLLECTION_TITLES['first-roll'],
+    date: '',
+    cover: 'https://i.imgur.com/6N300qR.jpg',
+    photos: firstRoll
+  },
+  {
+    id: 'santa-cruz',
+    title: COLLECTION_TITLES['santa-cruz'],
+    date: '',
+    cover: 'https://i.imgur.com/ut0gTuM.jpg',
+    photos: santaCruz
+  },
   {
     id: 'paradise',
     title: COLLECTION_TITLES['paradise'],

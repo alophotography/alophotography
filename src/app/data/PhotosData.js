@@ -278,6 +278,62 @@ export const PhotosData = [
     format: 'polaroid',
     orientation: 'vertical'
   },
+  // {
+  //   img: 'https://i.imgur.com/C6jMozo.jpg',
+  //   date: '',
+  //   location: 'Berkeley, CA',
+  //   collection: 'weekends',
+  //   camera: CAMERAS.MINOLTA_X700,
+  //   film: '',
+  //   format: '35mm'
+  // },
+  // {
+  //   img: 'https://i.imgur.com/5HYGj4u.jpg',
+  //   date: '',
+  //   location: 'San Francisco, CA',
+  //   collection: 'weekends',
+  //   camera: CAMERAS.MINOLTA_X700,
+  //   film: '',
+  //   format: '35mm'
+  // },
+  // {
+  //   img: 'https://i.imgur.com/V0MfhY9.jpg',
+  //   date: '',
+  //   location: 'San Francisco, CA',
+  //   collection: 'weekends',
+  //   camera: CAMERAS.MINOLTA_X700,
+  //   film: '',
+  //   format: '35mm'
+  // },
+  // {
+  //   img: 'https://i.imgur.com/OcpbhpX.jpg',
+  //   date: '',
+  //   location: 'San Francisco, CA',
+  //   collection: 'weekends',
+  //   camera: CAMERAS.MINOLTA_X700,
+  //   film: '',
+  //   format: '35mm'
+  // },
+  // {
+  //   img: 'https://i.imgur.com/NWrYaBp.jpg',
+  //   date: '',
+  //   location: 'Berkeley, CA',
+  //   collection: 'weekends',
+  //   camera: CAMERAS.MINOLTA_X700,
+  //   film: '',
+  //   format: '35mm',
+  //   orientation: 'portrait'
+  // },
+  // {
+  //   img: 'https://i.imgur.com/mPh5ToL.jpg',
+  //   date: '',
+  //   location: 'Berkeley, CA',
+  //   collection: 'weekends',
+  //   camera: CAMERAS.MINOLTA_X700,
+  //   film: '',
+  //   format: '35mm',
+  //   orientation: 'portrait'
+  // },
 // commute
   {
     img: 'https://i.imgur.com/WHIHtMo.jpg',
@@ -331,6 +387,98 @@ export const PhotosData = [
     collection: 'commute',
     camera: CAMERAS.MINOLTA_X700,
     film: 'Kodak GOLD 200',
+    format: '35mm'
+  },
+  {
+    img: 'https://i.imgur.com/rT9ZsMA.jpg',
+    date: '',
+    location: 'Berkeley, CA',
+    collection: 'commute',
+    camera: CAMERAS.MINOLTA_X700,
+    film: '',
+    format: '35mm'
+  },
+  {
+    img: 'https://i.imgur.com/puMxpDt.jpg',
+    date: '',
+    location: 'San Francisco, CA',
+    collection: 'commute',
+    camera: CAMERAS.MINOLTA_X700,
+    film: '',
+    format: '35mm'
+  },
+  {
+    img: 'https://i.imgur.com/klZFFVj.jpg',
+    date: '',
+    location: 'San Francisco, CA',
+    collection: 'commute',
+    camera: CAMERAS.MINOLTA_X700,
+    film: '',
+    format: '35mm'
+  },
+  {
+    img: 'https://i.imgur.com/Z1wsb0G.jpg',
+    date: '',
+    location: 'San Francisco, CA',
+    collection: 'commute',
+    camera: CAMERAS.MINOLTA_X700,
+    film: '',
+    format: '35mm'
+  },
+  {
+    img: 'https://i.imgur.com/Q3ne6FL.jpg',
+    date: '',
+    location: 'San Francisco, CA',
+    collection: 'commute',
+    camera: CAMERAS.MINOLTA_X700,
+    film: '',
+    format: '35mm',
+    orientation: 'portrait'
+  },
+  {
+    img: 'https://i.imgur.com/vaXnBam.jpg',
+    date: '',
+    location: 'San Francisco, CA',
+    collection: 'commute',
+    camera: CAMERAS.MINOLTA_X700,
+    film: '',
+    format: '35mm',
+    orientation: 'portrait'
+  },
+  {
+    img: 'https://i.imgur.com/MWfOfWt.jpg',
+    date: '',
+    location: 'San Francisco, CA',
+    collection: 'commute',
+    camera: CAMERAS.MINOLTA_X700,
+    film: '',
+    format: '35mm'
+  },
+  {
+    img: 'https://i.imgur.com/MTiGxhY.jpg',
+    date: '',
+    location: 'San Francisco, CA',
+    collection: 'commute',
+    camera: CAMERAS.MINOLTA_X700,
+    film: '',
+    format: '35mm'
+  },
+  {
+    img: 'https://i.imgur.com/IlnsTIK.jpg',
+    date: '',
+    location: 'San Francisco, CA',
+    collection: 'commute',
+    camera: CAMERAS.MINOLTA_X700,
+    film: '',
+    format: '35mm'
+  },
+  {
+    img: 'https://i.imgur.com/L1YEoKh.jpg',
+    date: '',
+    location: 'San Francisco, CA',
+    collection: 'commute',
+    camera: CAMERAS.MINOLTA_X700,
+    film: '',
     format: '35mm'
   },
 // white-christmas
@@ -685,13 +833,60 @@ export const PhotosData = [
   {
     img: 'https://i.imgur.com/GuyPoW5.png',
     date: '',
-    location: 'Los Angeles, CA',
+    location: 'Disneyland, CA',
     collection: 'city-of-angels',
     camera: CAMERAS.INSTAX_WIDE_210,
     film: '',
     format: 'polaroid',
     orientation: 'horizontal'
   },
+  // {
+  //   img: 'https://i.imgur.com/khJTQy5.jpg',
+  //   date: '',
+  //   location: 'Disneyland, CA',
+  //   collection: 'city-of-angels',
+  //   camera: CAMERAS.MINOLTA_X700,
+  //   film: '',
+  //   format: '35mm'
+  // },
+  // {
+  //   img: 'https://i.imgur.com/6cGTqK0.jpg',
+  //   date: '',
+  //   location: 'Disneyland, CA',
+  //   collection: 'city-of-angels',
+  //   camera: CAMERAS.MINOLTA_X700,
+  //   film: '',
+  //   format: '35mm'
+  // },
+  // {
+  //   img: 'https://i.imgur.com/9GaHNx0.jpg',
+  //   date: '',
+  //   location: 'Disneyland, CA',
+  //   collection: 'city-of-angels',
+  //   camera: CAMERAS.MINOLTA_X700,
+  //   film: '',
+  //   format: '35mm',
+  //   orientation: 'portrait'
+  // },
+  // {
+  //   img: 'https://i.imgur.com/efOGVyC.jpg',
+  //   date: '',
+  //   location: 'Disneyland, CA',
+  //   collection: 'city-of-angels',
+  //   camera: CAMERAS.MINOLTA_X700,
+  //   film: '',
+  //   format: '35mm',
+  //   orientation: 'portrait'
+  // },
+  // {
+  //   img: 'https://i.imgur.com/qdYCVqi.jpg',
+  //   date: '',
+  //   location: 'Disneyland, CA',
+  //   collection: 'city-of-angels',
+  //   camera: CAMERAS.MINOLTA_X700,
+  //   film: '',
+  //   format: '35mm'
+  // },
 // paradise
   {
     img: 'https://i.imgur.com/VNY84B7.png',
@@ -862,5 +1057,187 @@ export const PhotosData = [
     film: '',
     format: 'polaroid',
     orientation: 'horizontal'
-  }
+  },
+// santa-cruz
+  {
+    img: 'https://i.imgur.com/ut0gTuM.jpg',
+    date: '',
+    location: 'Santa Cruz, CA',
+    collection: 'santa-cruz',
+    camera: CAMERAS.MINOLTA_X700,
+    film: 'Kodak Portra 400',
+    format: '35mm'
+  },
+  {
+    img: 'https://i.imgur.com/o1KmiJO.jpg',
+    date: '',
+    location: 'Santa Cruz, CA',
+    collection: 'santa-cruz',
+    camera: CAMERAS.MINOLTA_X700,
+    film: 'Kodak Portra 400',
+    format: '35mm'
+  },
+  {
+    img: 'https://i.imgur.com/pCuzTqq.jpg',
+    date: '',
+    location: 'Santa Cruz, CA',
+    collection: 'santa-cruz',
+    camera: CAMERAS.MINOLTA_X700,
+    film: 'Kodak Portra 400',
+    format: '35mm'
+  },
+  {
+    img: 'https://i.imgur.com/Qoh8h88.jpg',
+    date: '',
+    location: 'Santa Cruz, CA',
+    collection: 'santa-cruz',
+    camera: CAMERAS.MINOLTA_X700,
+    film: 'Kodak Portra 400',
+    format: '35mm'
+  },
+  {
+    img: 'https://i.imgur.com/B3jQ4qn.jpg',
+    date: '',
+    location: 'Santa Cruz, CA',
+    collection: 'santa-cruz',
+    camera: CAMERAS.MINOLTA_X700,
+    film: 'Kodak Portra 400',
+    format: '35mm'
+  },
+  {
+    img: 'https://i.imgur.com/h1oFBrj.jpg',
+    date: '',
+    location: 'Santa Cruz, CA',
+    collection: 'santa-cruz',
+    camera: CAMERAS.MINOLTA_X700,
+    film: 'Kodak Portra 400',
+    format: '35mm'
+  },
+  {
+    img: 'https://i.imgur.com/SyRoBRY.jpg',
+    date: '',
+    location: 'Santa Cruz, CA',
+    collection: 'santa-cruz',
+    camera: CAMERAS.MINOLTA_X700,
+    film: 'Kodak Portra 400',
+    format: '35mm'
+  },
+  {
+    img: 'https://i.imgur.com/w2WcWwc.jpg',
+    date: '',
+    location: 'Santa Cruz, CA',
+    collection: 'santa-cruz',
+    camera: CAMERAS.MINOLTA_X700,
+    film: 'Kodak Portra 400',
+    format: '35mm'
+  },
+  {
+    img: 'https://i.imgur.com/qISYdQG.jpg',
+    date: '',
+    location: 'Santa Cruz, CA',
+    collection: 'santa-cruz',
+    camera: CAMERAS.MINOLTA_X700,
+    film: 'Kodak Portra 400',
+    format: '35mm'
+  },
+  {
+    img: 'https://i.imgur.com/hmw6u7l.jpg',
+    date: '',
+    location: 'Santa Cruz, CA',
+    collection: 'santa-cruz',
+    camera: CAMERAS.MINOLTA_X700,
+    film: 'Kodak Portra 400',
+    format: '35mm'
+  },
+  {
+    img: 'https://i.imgur.com/Drg5sHf.jpg',
+    date: '',
+    location: 'Santa Cruz, CA',
+    collection: 'santa-cruz',
+    camera: CAMERAS.MINOLTA_X700,
+    film: 'Kodak Portra 400',
+    format: '35mm'
+  },
+  {
+    img: 'https://i.imgur.com/fvCiPsw.jpg',
+    date: '',
+    location: 'Santa Cruz, CA',
+    collection: 'santa-cruz',
+    camera: CAMERAS.MINOLTA_X700,
+    film: 'Kodak Portra 400',
+    format: '35mm'
+  },
+  {
+    img: 'https://i.imgur.com/OX8FPCY.jpg',
+    date: '',
+    location: 'Santa Cruz, CA',
+    collection: 'santa-cruz',
+    camera: CAMERAS.MINOLTA_X700,
+    film: 'Kodak Portra 400',
+    format: '35mm'
+  },
+  {
+    img: 'https://i.imgur.com/Hzh6uxF.jpg',
+    date: '',
+    location: 'Santa Cruz, CA',
+    collection: 'santa-cruz',
+    camera: CAMERAS.MINOLTA_X700,
+    film: 'Kodak Portra 400',
+    format: '35mm'
+  },
+  {
+    img: 'https://i.imgur.com/GebZhXx.jpg',
+    date: '',
+    location: 'Santa Cruz, CA',
+    collection: 'santa-cruz',
+    camera: CAMERAS.MINOLTA_X700,
+    film: 'Kodak Portra 400',
+    format: '35mm'
+  },
+  {
+    img: 'https://i.imgur.com/NXA64TA.jpg',
+    date: '',
+    location: 'Santa Cruz, CA',
+    collection: 'santa-cruz',
+    camera: CAMERAS.MINOLTA_X700,
+    film: 'Kodak Portra 400',
+    format: '35mm'
+  },
+// first-roll
+  {
+    img: 'https://i.imgur.com/6N300qR.jpg',
+    date: '',
+    location: 'Berkeley, CA',
+    collection: 'first-roll',
+    camera: CAMERAS.NETTAR_515_16,
+    film: 'Arista EDU Ultra 400',
+    format: '120mm'
+  },
+  {
+    img: 'https://i.imgur.com/fYJr0vf.jpg',
+    date: '',
+    location: 'Berkeley, CA',
+    collection: 'first-roll',
+    camera: CAMERAS.NETTAR_515_16,
+    film: 'Arista EDU Ultra 400',
+    format: '120mm'
+  },
+  {
+    img: 'https://i.imgur.com/gXLiCla.jpg',
+    date: '',
+    location: 'Berkeley, CA',
+    collection: 'first-roll',
+    camera: CAMERAS.NETTAR_515_16,
+    film: 'Arista EDU Ultra 400',
+    format: '120mm'
+  },
+  {
+    img: 'https://i.imgur.com/T77IGdl.jpg',
+    date: '',
+    location: 'Berkeley, CA',
+    collection: 'first-roll',
+    camera: CAMERAS.NETTAR_515_16,
+    film: 'Arista EDU Ultra 400',
+    format: '120mm'
+  },
 ];

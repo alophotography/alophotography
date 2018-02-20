@@ -6,5 +6,7 @@ export const COLLECTION_TITLES = {
   'white-christmas': 'White Christmas',
   'genoa': 'Genoa',
   'city-of-angels': 'City of Angels',
-  'paradise': 'Paradise'
+  'paradise': 'Paradise',
+  'santa-cruz': 'Santa Cruz',
+  'first-roll': 'First Roll'
 }
