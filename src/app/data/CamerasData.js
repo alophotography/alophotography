@@ -1,5 +1,9 @@
 import { CAMERAS } from '../constants/CamerasConstants.js';
 import { PhotosData } from './PhotosData.js';
+import mamiyaC330sIcon from '../assets/icons/mamiya-c330s.png';
+import minoltaX700Icon from '../assets/icons/minolta-x700.png';
+import polaroid690Icon from '../assets/icons/polaroid-690.png';
+import instaxWide210Icon from '../assets/icons/instax-wide-210.png';
 
 const mamiyaC330s = [];
 const minoltaX700 = [];
@@ -26,6 +30,7 @@ export const CamerasData = [
     date: '',
     cover: 'https://i.imgur.com/IEYQQAR.jpg',
     img: 'https://i.imgur.com/fMfeFgC.jpg',
+    icon: mamiyaC330sIcon,
     photos: mamiyaC330s,
     info:
       'Camera type: Twin-lens reflex\n' +
@@ -40,6 +45,7 @@ export const CamerasData = [
     date: '',
     cover: 'https://i.imgur.com/gcOtGLK.jpg',
     img: 'https://i.imgur.com/yKSOyEK.jpg',
+    icon: minoltaX700Icon,
     photos: minoltaX700,
     info:
       'Camera type: Single-lens reflex\n' +
@@ -54,6 +60,7 @@ export const CamerasData = [
     date: '',
     cover: 'https://i.imgur.com/7xkKKKv.jpg',
     img: 'https://i.imgur.com/z4Y1N2S.jpg',
+    icon: polaroid690Icon,
     photos: polaroid690,
     info:
       'Camera type: Single-lens reflex instant camera\n' +
@@ -68,6 +75,7 @@ export const CamerasData = [
     date: '',
     cover: 'https://i.imgur.com/eR15ZCT.jpg',
     img: 'https://i.imgur.com/FwNUNHD.jpg',
+    icon: instaxWide210Icon,
     photos: instaxwide210,
     info:
       'Camera type: Instant camera\n' +

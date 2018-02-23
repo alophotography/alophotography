@@ -28,6 +28,7 @@ class Grid extends Component {
 
   renderRow = (rowData, index) => {
     const view = this.props.view;
+    const rowStyle = view === 'cameras' ? { paddingBottom: '45px' } : { paddingBottom: '20px' };
     return (
       <div className="row center-container grid-row" key={index}>
         {
@@ -35,19 +36,23 @@ class Grid extends Component {
             return (
               <div className="col-sm" key={i+index}>
                 {(data !== undefined) &&
-                  <div className="col-container">
+                  <div className="col-container" style={rowStyle}>
                     <Link
                       to={`/${view}/${data.id}`}
                       className="img-title"
                     >
                       <GridImage
                         src={data.cover}
-                        alt={data.title}
+                        title={data.title}
+                        icon={data.icon}
+                        view={view}
                       />
                     </Link>
-                    <Link to={`/${view}/${data.id}`} className="img-title">
+                    {view === 'collections' &&
+                      <Link to={`/${view}/${data.id}`} className="img-title">
                       {data.title}
                     </Link>
+                  }
                   </div>
                 }
               </div>
