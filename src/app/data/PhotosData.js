@@ -278,62 +278,62 @@ export const PhotosData = [
     format: 'polaroid',
     orientation: 'vertical'
   },
-  // {
-  //   img: 'https://i.imgur.com/C6jMozo.jpg',
-  //   date: '',
-  //   location: 'Berkeley, CA',
-  //   collection: 'weekends',
-  //   camera: CAMERAS.MINOLTA_X700,
-  //   film: '',
-  //   format: '35mm'
-  // },
-  // {
-  //   img: 'https://i.imgur.com/5HYGj4u.jpg',
-  //   date: '',
-  //   location: 'San Francisco, CA',
-  //   collection: 'weekends',
-  //   camera: CAMERAS.MINOLTA_X700,
-  //   film: '',
-  //   format: '35mm'
-  // },
-  // {
-  //   img: 'https://i.imgur.com/V0MfhY9.jpg',
-  //   date: '',
-  //   location: 'San Francisco, CA',
-  //   collection: 'weekends',
-  //   camera: CAMERAS.MINOLTA_X700,
-  //   film: '',
-  //   format: '35mm'
-  // },
-  // {
-  //   img: 'https://i.imgur.com/OcpbhpX.jpg',
-  //   date: '',
-  //   location: 'San Francisco, CA',
-  //   collection: 'weekends',
-  //   camera: CAMERAS.MINOLTA_X700,
-  //   film: '',
-  //   format: '35mm'
-  // },
-  // {
-  //   img: 'https://i.imgur.com/NWrYaBp.jpg',
-  //   date: '',
-  //   location: 'Berkeley, CA',
-  //   collection: 'weekends',
-  //   camera: CAMERAS.MINOLTA_X700,
-  //   film: '',
-  //   format: '35mm',
-  //   orientation: 'portrait'
-  // },
-  // {
-  //   img: 'https://i.imgur.com/mPh5ToL.jpg',
-  //   date: '',
-  //   location: 'Berkeley, CA',
-  //   collection: 'weekends',
-  //   camera: CAMERAS.MINOLTA_X700,
-  //   film: '',
-  //   format: '35mm',
-  //   orientation: 'portrait'
-  // },
+  {
+    img: 'https://i.imgur.com/C6jMozo.jpg',
+    date: '',
+    location: 'Berkeley, CA',
+    collection: 'weekends',
+    camera: CAMERAS.MINOLTA_X700,
+    film: 'Kodak GOLD 200',
+    format: '35mm'
+  },
+  {
+    img: 'https://i.imgur.com/5HYGj4u.jpg',
+    date: '',
+    location: 'San Francisco, CA',
+    collection: 'weekends',
+    camera: CAMERAS.MINOLTA_X700,
+    film: 'Kodak GOLD 200',
+    format: '35mm'
+  },
+  {
+    img: 'https://i.imgur.com/V0MfhY9.jpg',
+    date: '',
+    location: 'San Francisco, CA',
+    collection: 'weekends',
+    camera: CAMERAS.MINOLTA_X700,
+    film: 'Kodak GOLD 200',
+    format: '35mm'
+  },
+  {
+    img: 'https://i.imgur.com/OcpbhpX.jpg',
+    date: '',
+    location: 'San Francisco, CA',
+    collection: 'weekends',
+    camera: CAMERAS.MINOLTA_X700,
+    film: 'Kodak GOLD 200',
+    format: '35mm'
+  },
+  {
+    img: 'https://i.imgur.com/NWrYaBp.jpg',
+    date: '',
+    location: 'Berkeley, CA',
+    collection: 'weekends',
+    camera: CAMERAS.MINOLTA_X700,
+    film: 'Kodak Max Zoom 800',
+    format: '35mm',
+    orientation: 'portrait'
+  },
+  {
+    img: 'https://i.imgur.com/mPh5ToL.jpg',
+    date: '',
+    location: 'Berkeley, CA',
+    collection: 'weekends',
+    camera: CAMERAS.MINOLTA_X700,
+    film: 'Kodak Max Zoom 800',
+    format: '35mm',
+    orientation: 'portrait'
+  },
 // commute
   {
     img: 'https://i.imgur.com/WHIHtMo.jpg',
@@ -840,53 +840,53 @@ export const PhotosData = [
     format: 'polaroid',
     orientation: 'horizontal'
   },
-  // {
-  //   img: 'https://i.imgur.com/khJTQy5.jpg',
-  //   date: '',
-  //   location: 'Disneyland, CA',
-  //   collection: 'city-of-angels',
-  //   camera: CAMERAS.MINOLTA_X700,
-  //   film: '',
-  //   format: '35mm'
-  // },
-  // {
-  //   img: 'https://i.imgur.com/6cGTqK0.jpg',
-  //   date: '',
-  //   location: 'Disneyland, CA',
-  //   collection: 'city-of-angels',
-  //   camera: CAMERAS.MINOLTA_X700,
-  //   film: '',
-  //   format: '35mm'
-  // },
-  // {
-  //   img: 'https://i.imgur.com/9GaHNx0.jpg',
-  //   date: '',
-  //   location: 'Disneyland, CA',
-  //   collection: 'city-of-angels',
-  //   camera: CAMERAS.MINOLTA_X700,
-  //   film: '',
-  //   format: '35mm',
-  //   orientation: 'portrait'
-  // },
-  // {
-  //   img: 'https://i.imgur.com/efOGVyC.jpg',
-  //   date: '',
-  //   location: 'Disneyland, CA',
-  //   collection: 'city-of-angels',
-  //   camera: CAMERAS.MINOLTA_X700,
-  //   film: '',
-  //   format: '35mm',
-  //   orientation: 'portrait'
-  // },
-  // {
-  //   img: 'https://i.imgur.com/qdYCVqi.jpg',
-  //   date: '',
-  //   location: 'Disneyland, CA',
-  //   collection: 'city-of-angels',
-  //   camera: CAMERAS.MINOLTA_X700,
-  //   film: '',
-  //   format: '35mm'
-  // },
+  {
+    img: 'https://i.imgur.com/khJTQy5.jpg',
+    date: '',
+    location: 'Disneyland, CA',
+    collection: 'city-of-angels',
+    camera: CAMERAS.MINOLTA_X700,
+    film: 'Kodak GOLD 200',
+    format: '35mm'
+  },
+  {
+    img: 'https://i.imgur.com/6cGTqK0.jpg',
+    date: '',
+    location: 'Disneyland, CA',
+    collection: 'city-of-angels',
+    camera: CAMERAS.MINOLTA_X700,
+    film: 'Kodak GOLD 200',
+    format: '35mm'
+  },
+  {
+    img: 'https://i.imgur.com/9GaHNx0.jpg',
+    date: '',
+    location: 'Disneyland, CA',
+    collection: 'city-of-angels',
+    camera: CAMERAS.MINOLTA_X700,
+    film: 'Kodak GOLD 200',
+    format: '35mm',
+    orientation: 'portrait'
+  },
+  {
+    img: 'https://i.imgur.com/efOGVyC.jpg',
+    date: '',
+    location: 'Disneyland, CA',
+    collection: 'city-of-angels',
+    camera: CAMERAS.MINOLTA_X700,
+    film: 'Kodak GOLD 200',
+    format: '35mm',
+    orientation: 'portrait'
+  },
+  {
+    img: 'https://i.imgur.com/qdYCVqi.jpg',
+    date: '',
+    location: 'Disneyland, CA',
+    collection: 'city-of-angels',
+    camera: CAMERAS.MINOLTA_X700,
+    film: 'Kodak GOLD 200',
+    format: '35mm'
+  },
 // paradise
   {
     img: 'https://i.imgur.com/VNY84B7.png',
