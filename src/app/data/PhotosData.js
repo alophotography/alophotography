@@ -85,7 +85,7 @@ export const PhotosData = [
     format: '120mm'
   },
   {
-    img: 'https://i.imgur.com/TShq4N7.jpg',
+    img: 'https://i.imgur.com/4yMqlcg.jpg',
     date: '',
     location: 'Berkeley, CA',
     collection: 'berkeley-dec-2017',
